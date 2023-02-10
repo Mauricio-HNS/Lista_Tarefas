@@ -1,0 +1,51 @@
+{
+  "name": "tasklistfrontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@date-io/dayjs": "^2.16.0",
+    "@date-io/moment": "^2.16.1",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@fontsource/public-sans": "^4.5.11",
+    "@fontsource/roboto": "^4.5.8",
+    "@hookform/resolvers": "^2.9.10",
+    "@mui/icons-material": "^5.10.15",
+    "@mui/joy": "^5.0.0-alpha.55",
+    "@mui/material": "^5.10.15",
+    "@mui/x-date-pickers": "^5.0.9",
+    "@tanstack/react-query": "^4.16.1",
+    "@tanstack/react-query-devtools": "^4.18.0",
+    "axios": "^1.2.0",
+    "dayjs": "^1.11.6",
+    "dotenv": "^16.0.3",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
+    "moment": "^2.29.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.39.5",
+    "react-hot-toast": "^2.4.0",
+    "react-router-dom": "^6.4.3",
+    "sort-by": "^1.2.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@vitejs/plugin-react": "^2.2.0",
+    "jsdom": "^20.0.3",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.3",
+    "vitest": "^0.25.3"
+  }
+}

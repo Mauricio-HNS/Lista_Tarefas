@@ -1,0 +1,16 @@
+.group-div {
+    vertical-align: middle;
+    width: auto;
+}
+
+.group-div span {
+    font-weight: bolder;
+    padding: 10px 1px 0px 1px;
+}
+
+.group-div .MuiSvgIcon-root {
+    position: relative;
+    top: 4px;
+    font-size: large;
+    /* color: #e91e63; */
+}

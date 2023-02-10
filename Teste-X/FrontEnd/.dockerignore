@@ -1,0 +1,7 @@
+node_modules
+Dockerfile
+.env.local
+.env.development
+www
+dist
+package-lock.json

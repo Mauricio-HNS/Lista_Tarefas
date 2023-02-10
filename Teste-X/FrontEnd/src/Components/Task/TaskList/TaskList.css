@@ -1,0 +1,6 @@
+.TaskList {
+    width: 80%;
+    max-width: 500;
+    background-color: 'background.paper';
+    margin: auto;
+}
